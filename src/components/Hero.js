@@ -50,8 +50,27 @@ const Hero = () => {
           <p style={subtitleStyles}>
             I'm Saurabh Ratnaparkhi, a Software Developer specialized in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Truminds.
           </p>
-          <div style={{ display: 'flex', gap: '1.5rem' }}>
+          <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
             <a href="#projects" className="btn-primary">View My Work</a>
+            <a 
+              href="https://drive.google.com/file/d/1MkyqUtggA3-0u7ZenbRrVR4ISw7p4Tsg/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ 
+                padding: '0.8rem 2rem', 
+                borderRadius: '0.5rem', 
+                textDecoration: 'none', 
+                color: 'var(--text-primary)', 
+                fontWeight: '600',
+                border: '1px solid var(--glass-border)',
+                background: 'var(--glass)',
+                transition: 'var(--transition)'
+              }}
+              onMouseOver={(e) => e.target.style.background = 'var(--glass-border)'}
+              onMouseOut={(e) => e.target.style.background = 'var(--glass)'}
+            >
+              Resume
+            </a>
             <a 
               href="#contact" 
               style={{ 

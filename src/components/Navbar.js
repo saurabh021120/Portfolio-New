@@ -65,6 +65,7 @@ const Navbar = () => {
           <li><a href="#about" style={linkStyles}>About</a></li>
           <li><a href="#experience" style={linkStyles}>Experience</a></li>
           <li><a href="#projects" style={linkStyles}>Projects</a></li>
+          <li><a href="https://drive.google.com/file/d/1MkyqUtggA3-0u7ZenbRrVR4ISw7p4Tsg/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={linkStyles}>Resume</a></li>
           <li><a href="#contact" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.85rem' }}>Get in Touch</a></li>
         </ul>
       </div>
